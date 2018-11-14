@@ -16,7 +16,7 @@
 title: Test-Editor
 email: testeditor.eng@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Test-Editor - write User Acceptance Tests as they were meant to be   
+  Write User Acceptance Tests as they were meant to be   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: testeditor3

@@ -5,10 +5,8 @@
 layout: home
 ---
 
-{% include header.html %}
 
-
-![My helpful screenshot](/images/Test-Editor_Logo_400x400.png)
+![Test-Editor Logo](/images/Test-Editor_Logo_400x400.png)
 
 # Test-Editor-Web
   
