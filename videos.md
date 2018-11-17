@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Videos
-permalink: /videos/
+title: Screencasts
+permalink: /screencast/
 ---
 
 
-# Here next videos 2 come
+# Here next screencasts 2 come

@@ -5,9 +5,6 @@
 layout: home
 ---
 
-
-![Test-Editor Logo](/images/Test-Editor_Logo_400x400.png)
-
 # Test-Editor-Web
   
   "UA Tests as they were meant to be"
