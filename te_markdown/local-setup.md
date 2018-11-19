@@ -32,13 +32,13 @@ The necessary docker images are fetched from [docker-hub](https://hub.docker.com
 
 ## Login
 
-<images/te.login-page.png>
+![login](/images/te.login-page.png "login")
 
 You will be asked to login with a Google Account. This will redirect you to Google where you are asked to login and to allow the test-editor-web application to use your account id. The test-editor-web will never know your credentials. Google provides the test-editor-web with an id (no credentials), that's all.
 
 Once logged in, you will be redirected to your locally running instance of the test-editor again. Now the preconfigured tutorial workspace is loaded and you can start using the test-editor-web!
 
-<images/tutorial/te.startup-page.png>
+![startup](/images/tutorial/te.startup-page.png "startup")
 
 ## That's it
 

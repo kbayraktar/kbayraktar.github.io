@@ -21,9 +21,9 @@ Each specification will eventually be implemented by a test case. A test specifi
 
 The software under test is an implementation of the heroes tutorial of the angular framework (see).
 
-[How do I get a running test-editor-instance?](test-editor-web.local-setup)
+[How do I get a running test-editor-instance?](local-setup)
 
-<images/tutorial/tutorial.heroes.create.spec.gif>
+![screencast: create hero specification](/images/tutorial/tutorial.heroes.create.spec.gif "screencast: create hero specification")
 
 Given you have a running instance of the test-editor-web, the following (trivial) steps suffice:
 
@@ -31,9 +31,11 @@ Given you have a running instance of the test-editor-web, the following (trivial
 - create a new file with the extension '.tsl' (e.g. CreateHero.tsl)
 - Write the specification name into the opened editor, prefixing it with '#' (e.g. '# CreateHero'). Currently you need to type a new line before the '#'.
 - Write each aspect of the specification (specification steps):
+```
         * Given: I am on the heroes page
         * When: I create a hero named "Sancho"
         * Then: The hero should be the last one of the list
+```
 
 That's it. The first specification is in place.
 
