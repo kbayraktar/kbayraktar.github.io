@@ -1,3 +1,9 @@
+---
+layout: page
+title: Local Installation / Hosting
+permalink: /te_markdown/local-setup/
+---
+
 - Estimated reading time: 10 minutes
 - Audience: Curious party, Noob, [Somewhat experienced], Experienced, Expert
 - Prerequisites: Internet connectivity, Browser (Firefox, Chrome or Chromium), Google Account, Docker installation

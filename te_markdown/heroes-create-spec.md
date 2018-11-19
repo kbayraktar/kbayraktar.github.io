@@ -1,3 +1,9 @@
+---
+layout: page
+title: Tutorial: specification "create hero"
+permalink: /te_markdown/heroes-create-spec/
+---
+
 - Estimated reading time: 3 minutes
 - Audience: [Curious party], Noob, Somewhat experienced, Experienced, Expert
 
