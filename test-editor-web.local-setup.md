@@ -1,27 +1,40 @@
-Estimated reading time: 10 minutes, Audience: Curious party, Noob, [Somewhat experienced], Experienced, Expert
-What you will need: Internet connectivity, Browser (Firefox, Chrome or Chromium), Google Account, Docker installation
+- Estimated reading time: 10 minutes
+- Audience: Curious party, Noob, [Somewhat experienced], Experienced, Expert
+- Prerequisites: Internet connectivity, Browser (Firefox, Chrome or Chromium), Google Account, Docker installation
 
 The test-editor-web consists of the web ui and a couple of service backends that do the heavy lifting for the ui.
 
+## Prerequisites
+
 In order to get the examples running locally without using hosted services, you need to have a working docker installation including docker-compose. 
-Please take a look at https://docs.docker.com/compose/install/ to get this installed quickly.
+Please take a look at [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/) to get this installed quickly.
     
-Get a copy of https://github.com/test-editor/tutorials (either by downloading and unpacking the (zip)[https://github.com/test-editor/tutorials/archive/master.zip] or by cloning the (repo)[https://github.com/test-editor/tutorials.git]).
+Get a copy of [https://github.com/test-editor/tutorials](https://github.com/test-editor/tutorials) (either by downloading and unpacking the [zip](https://github.com/test-editor/tutorials/archive/master.zip) or by cloning the [repo](https://github.com/test-editor/tutorials.git)).
 
-Open a shell in the respective folder
+## Download and run 
 
-```shell
+Open a shell in the respective folder and use the following commands:
+
+```
 cd heroes                          # switch to the heroes tutorial
 bash run-hero-create-specification # bring up the first tutorial
 ```
 
 Now is the time to grab a coffee. I'm afraid this will take a while.
 
-The necessary images are fetched from docker-hub (https://hub.docker.com/u/testeditor/) which will take its time, depending on your connectivity. As soon as the images are fully downloaded and extracted the containers are started. Once the containers are ready, the browser is started automatically and you will be presented with the test-editor-web login screen. If something unexpected happens or the whole process is interrupted, it might help to just run `bash run-hero-create-specification` again. Already downloaded elements won't be downloaded again.
+The necessary docker images are fetched from [docker-hub](https://hub.docker.com/u/testeditor/) which will take its time, depending on your connectivity. As soon as the images are fully downloaded and extracted the containers are started. Once the containers are ready, the browser is started automatically and you will be presented with the test-editor-web login screen. If something unexpected happens or the whole process is interrupted, it might help to just run `bash run-hero-create-specification` again. Already downloaded elements won't be downloaded again.
+
+## Login
+
+<images/te.login-page.png>
 
 You will be asked to login with a Google Account. This will redirect you to Google where you are asked to login and to allow the test-editor-web application to use your account id. The test-editor-web will never know your credentials. Google provides the test-editor-web with an id (no credentials), that's all.
 
 Once logged in, you will be redirected to your locally running instance of the test-editor again. Now the preconfigured tutorial workspace is loaded and you can start using the test-editor-web!
+
+<images/tutorial/te.startup-page.png>
+
+## That's it
 
 Keep in mind that the initial start of tests will again take some time, since a lot of software libraries that are not prepackaged need to be downloaded from the net. These will however be cached such that the next execution will be much quicker.
  
