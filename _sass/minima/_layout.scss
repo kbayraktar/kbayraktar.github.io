@@ -380,7 +380,15 @@
   float:right
  }  
   
-
+/* Centers the `get` button with the image.
+ * 196px is the width of the image.
+ */
+ @media (min-width: 980px) {
+  .get-button {
+    max-width: 196px;
+    text-align: center;
+  }
+}
 
 
 

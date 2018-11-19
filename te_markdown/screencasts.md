@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Screencasts
-permalink: /screencast/
+permalink: /te_markdown/screencasts/
 ---
 
 
