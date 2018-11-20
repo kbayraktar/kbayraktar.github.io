@@ -392,9 +392,13 @@
  * 296px is the width of the image.
  */
  @media (min-width: 980px) {
-  .get-button {
+  .get-button-big {
     max-width: 296px;
     text-align: center;
+  }
+  .get-button {
+    max-width: 296px;
+    text-align: left;
   }
 }
 
@@ -417,7 +421,26 @@ a.web-button {
   border: 1px solid #ccc;
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.25);
   text-decoration: none;
-
+}
+a.web-button-grey {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #9fa19f;
+  background-image: linear-gradient(to bottom, #bdbebd, #7e807e);
+  background-repeat: repeat-x;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  padding: 10px 12px;
+  font-size: 14.0px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 0;
+  line-height: 18px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
 }
 
 a.web.button:hover {
