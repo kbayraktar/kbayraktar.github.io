@@ -187,6 +187,14 @@
 
   .headline_2 {
     font-size: 2.0em;
+    color: #828282;
+    border-left: none;
+    padding-left: 15px;
+    letter-spacing: -1px;
+    font-style: italic;
+    margin-bottom: 15px;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
   }
 
   .phrase_main {
