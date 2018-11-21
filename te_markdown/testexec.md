@@ -5,5 +5,5 @@ permalink: /te_markdown/testexec/
 ---
 
      
-Test execution is performed within <em>Docker containers</em> that are isolated and complete,
+Test execution is performed within _Docker containers_ that are isolated and complete,
 such that the identical container is used locally as it is used in the cloud.
