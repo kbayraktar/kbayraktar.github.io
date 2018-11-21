@@ -51,7 +51,7 @@ Given you have a running instance of the test-editor-web, the following steps ar
         - Close browser
 ```
 
-![screencase: create hero test case](/images/tutorial.heroes.create.testcase.gif "screencast: create hero test case")
+![screencase: create hero test case](/images/tutorial/tutorial.heroes.create.testcase.gif "screencast: create hero test case")
 
 That's it. Your first test in place. 
 
