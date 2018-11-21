@@ -14,7 +14,7 @@ For example, tools embedded into heavy-weight integrated development environment
 
 To this end, the languages used to express test specifications and test cases are tailored specifically towards their respective use cases. They have been purpose-built from scratch, as opposed to extending an existing programming language, so that no unneeded and potentially confusing concepts are exposed, allowing to express test specification and test cases in a clear and concise manner. 
 
-At the same time, the languages are *customizable*, so that concepts from the application domain and the software under test can be defined and given semantics to be used directly in tests, making them natural to read and understand for domain experts.
+At the same time, the languages are *customizable*, so that concepts from the application domain and the software under test can be defined and given semantics to be used directly in tests, making them more natural to read and easier to understand for domain experts.
 
 ~~~
 * Create a hero named "Sancho"
