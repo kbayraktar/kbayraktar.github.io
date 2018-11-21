@@ -55,9 +55,11 @@ Given you have a running instance of the test-editor-web, the following steps ar
 
 That's it. Your first test in place. 
 
-If you want to know how to execute your test, [read more](heroes-create-testcase-execution){:class="web-button-grey"}
+Do you want to know how to execute your test? 
+[read more](heroes-create-testcase-execution){:class="web-button-grey"}
 
-If you want to learn more about the editor and how the tests can be written, making use of content completion etc., [read more](heroes-create-testcase-editor){:class="web-button-grey"}
+Do you want to learn more about the editor and how the tests can be written, making use of content completion etc.?
+[read more](heroes-create-testcase-editor){:class="web-button-grey"}
 
 ## Some reflections
 
@@ -71,4 +73,7 @@ The test case is expected to be written by a tester before the application is in
 It is quite common to have the test case change because of implementation issues that could not have been foreseen. Changes need to be discussed though, which again has the benefit of sharing a common understanding of the feature to be implemented between domain expert, tester and developer. 
 
 The vocabulary used in test cases is largely defined through artifacts written in the application mapping language (AML). The tester/developer writes mappings of the test vocabulary onto the actual implementation using this AML.
-For the given tutorial a minimal AML was provided (Heroes.aml), partially describing the software under test. If you want to learn more about the AML, [read more](heroes-create-aml){:class="web-button-grey"}
+For the given tutorial a minimal AML was provided (Heroes.aml), partially describing the software under test.
+
+Do you want to learn more about the AML?
+[read more](heroes-create-aml){:class="web-button-grey"}
