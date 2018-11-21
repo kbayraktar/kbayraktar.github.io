@@ -7,15 +7,11 @@ permalink: /te_markdown/heroes-create-spec/
 - Estimated reading time: 5 minutes
 - Audience: [Curious party], Noob, Somewhat experienced, Experienced, Expert
 
-### Test specifications are expectations that the software under test should satisfy.
-
-### In a **test first** environment, they are written before the actual feature is implemented.
-
-### There are only minimal rules as to how these specifications should be written. It is however good practice to follow a given-when-then pattern to group details.
-
-### Each test specification should describe a non trivial, focused domain expectation.
-
-### Each specification will eventually be implemented by a test case. A test specification is covered through non failing test cases that implement this specification.
+Test specifications are expectations that the software under test should satisfy.
+In a **test first** environment, they are written before the actual feature is implemented.
+There are only minimal rules as to how these specifications should be written. It is however good practice to follow a given-when-then pattern to group details.
+Each test specification should describe a non trivial, focused domain expectation.
+Each specification will eventually be implemented by a test case. A test specification is covered through non failing test cases that implement this specification.
 
 ## How do I write specifications?
 
