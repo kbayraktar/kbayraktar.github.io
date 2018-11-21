@@ -26,7 +26,7 @@ This area is the place to write different test artifacts. The editor supports th
 The user can find the different testdriver test steps as an overview in the Test-Step-Selektor area, to define test cases.
 
 #### 4. The Test-Execution-Navigator area
-Here you can excute the chosen testcase through clicking the start button on top left corner of this area. After test execution the results of the separate test case steps are shown in this area.
+Here you can excute the chosen test case by clicking the start button on the top left corner of this area. After test execution, the results of the individual test steps are indicated by either green (success) or red (failure) icons.
 * Green icons representing a successful test run. 
 * Red icons representing an abortion of the test run. The possible reason of the failure situation will be recorded briefly. The details cause of failure will be presented in the Test-Execution-Details area. 
 
