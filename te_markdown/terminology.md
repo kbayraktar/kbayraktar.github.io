@@ -14,15 +14,15 @@ In the screenshot above you can see the different areas of Test-Editor-Web, indi
 In the following, each area is briefly described.
 
 #### 1. Test Navigator
-In this area the user can specify the structure of the different test artifacts.
-He can create, delete, rename, cut, copy, and paste test artifacts and refresh the workspace.
-The user can filter the different test-artifacts, so that just the specific test-artifact is visible which was selected.
+In this area you can specify the structure of the different test artifacts.
+You can create, delete, rename, cut, copy, and paste test artifacts and refresh the workspace.
+In addition you can filter the different test-artifacts, so that just the specific test-artifact is visible which was selected.
 
-#### 2. Editor area
-This area is the place to write different test artifacts. The editor supports the user with a content completion of the different possibilities during typing and saving your test case, e.g. through the shortcut ```STRG + S```.
+#### 2. Editor Area
+This area is the place to write different test artifacts. The editor supports you with a content completion of the different possibilities during typing and saving your test case, e.g. through the shortcut ```STRG + S```.
 
 #### 3. Test Step Selector
-The user can find the different testdriver test steps as an overview in the Test-Step-Selektor area, to define test cases.
+You can find the different testdriver test steps as an overview in the Test-Step-Selektor area, to define test cases.
 
 #### 4. Test Execution Navigator
 Here you can excute the chosen test case by clicking the start button on the top left corner of this area. After test execution, the results of the individual test steps are indicated by either green (success) or red (failure) icons.
