@@ -32,7 +32,7 @@ Here you can excute the chosen test case by clicking the start button on the top
 
 
 #### 5. The Test-Execution-Details area
-In this area, details cause of failure and accordingly details of test case steps are presented.
+In this area, details about the test step selected in the _Test Execution Navigator_ are shown. In case of failures during execution, this area offers hints about what went wrong. The general sequence of events during test execution can be traced by accessing _logs_ and inspecting _screenshots_.
 
 ----
 
