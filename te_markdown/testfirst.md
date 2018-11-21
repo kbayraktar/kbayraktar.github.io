@@ -8,13 +8,11 @@ In agile development, *domain experts* write user stories with explicit *accepta
 
 Test-Editor-Web fosters the collaboration of domain experts, testers, and developers by providing each group with the right tool for their job:
 
-* Domain experts use the *test specification language* (TSL) to formalize desired system behaviors, using their own, domain-specific terminology, and thus requiring no technical expertise. Test specifications function as communication basis between domain experts, testers, and developers.
-* Testers implement test specifications using the *test case language* (TCL), yielding test cases that are formal enough to be executed automatically, while still being expressed in non-technical language, so that domain experts can read and validate them against their specifications.
-* Developers use the test specification as blueprint for implementation, and rely on the test cases to continuosly validate that they are making progress towards the intended goal.
+| Domain experts use the *test specification language* (TSL) to formalize desired system behaviors, using their own, domain-specific terminology, and thus requiring no technical expertise. Test specifications function as communication basis between domain experts, testers, and developers. | Testers implement test specifications using the *test case language* (TCL), yielding test cases that are formal enough to be executed automatically, while still being expressed in non-technical language, so that domain experts can read and validate them against their specifications. | Developers use the test specification as blueprint for implementation, and rely on the test cases to continuosly validate that they are making progress towards the intended goal.|
+| ![Writing a Test Specification](/images/type-create-tsl.gif "Writing a Test Specification") | ![Writing a Test Case](/images/type-create-tcl.gif "Writing a Test Case") | ![Executing a Test Case](/images/execute-create-tcl.gif "Executing a Test Case") |
+{: style="table-layout: fixed; border: 0px" }
 
 The test-first practice, enabled by Test-Editor-Web on the user acceptance level, ensures that the development process is on the right track from the very beginning. Its ability for automated test execution allows to continuously validate each increment against the specification, so that development stays on track until completion.
-
-<!--- TODO: (suggestion) add three images / GIFs to serve as example of 1. a test spec (can be just one or two lines), 2. a test case implementing the former (also just few lines), and 3. a snippet of the test execution tree, GIF showing them "turning green" -->
 
 ## Learn More
 
