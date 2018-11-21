@@ -16,7 +16,7 @@ through the different yellow areas. The description of the specific area can be 
 
 #### 1. The Test-Navigator area
 In this area the user can specify the structure of the different test artifacts.
-He can create, delete, rename, cut, copy and paste test artifacts and refresh the workspace.
+He can create, delete, rename, cut, copy, and paste test artifacts and refresh the workspace.
 The user can filter the different test-artifacts, so that just the specific test-artifact is visible which was selected.
 
 #### 2. The Editor area
