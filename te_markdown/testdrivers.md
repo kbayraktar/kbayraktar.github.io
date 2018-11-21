@@ -4,6 +4,9 @@ title: Test Your Application
 permalink: /te_markdown/testdrivers/
 ---
 
+* Estimated reading time: 8 minutes
+* Audience: [Curious party], Noob, Somewhat experienced, Experienced, Expert
+
 User acceptance tests should focus on the needs and expected behaviors of the software under test from a user-centric perspective, expressed in technology-agnostic terms of the application domain. However, to automate these tests, the particular technology stack of the software under test have to be taken into account. Effective user acceptance test tools have to cater to both requirements, while also being generic enough to be applicable to the testing of different applications build on diverse platforms and technologies.
 
 **Test-Editor-Web** decouples test specification and test case descriptions from concrete, executable tests that can be run against a given software under test. From test cases expressed with the test case language (TCL), the actual test code is generated on demand, relying on different *test fixtures* that encapsulate the mapping of generic test steps to concrete actions appropriate for a particular technology. Out of the box, the following fixtures are available:
