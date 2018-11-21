@@ -8,46 +8,31 @@ Test-Editor-Web is a lightweight application for specifying, implementing, and e
 
 ## Overview
 
-<!--- TODO: insert (annotated?) overview image and briefly describe the main areas of the user interface -->
-![Overview](/images/te.overview.png){:class="img-responsive"}
+![Overview](/images/te.overview.svg?sanitize=true){:class="img-responsive"}
 
 ### The different areas of the Test-Editor-Web
 In the screenshot above you can see the different areas of the Test-Editor-Web which are divided
-under different colors. The description of the specific area can be found under the number of this area.   
+through the different yellow areas. The description of the specific area can be found under the number of this area underneath.   
 
 #### 1. The Test-Navigator area
 In this area the user can specify the structure of the different test artifacts.
-He can create, delete, rename, copy and paste test artifacts.
-In this example we have the path structure of a test specification named 'Create.tsl'
-```
-org -> testeditor -> heroes -> solution -> Create.tsl
-``` 
-![Test-Navigator](/images/te.navigator.png){:class="img-responsive"}
-
-**Test-Navigator functionality**
-
-In the yellow marked area , the user can create, delete, rename, copy and paste test artifacts.
-
-![Navigator-Tools](/images/te.navigator_tools.svg?sanitize=true)
-
-**Test-Navigator Filter**
-
-In the yellow marked area, the user can filter the different test-artifacts, so that just the specific test-artifact is visible which was selected.
-
-![Navigator-Filter](/images/te.navigator_filter.svg?sanitize=true)
-
+He can create, delete, rename, cut, copy and paste test artifacts and refresh the workspace.
+The user can filter the different test-artifacts, so that just the specific test-artifact is visible which was selected.
 
 #### 2. The Editor area
-
+This area is the place to write different test artifacts. The editor supports the user with a content completion of the different possibilities during typing and saving your test case e.g. through the shortcut ```STRG + S``` . 
 
 #### 3. The Test-Step-Selector area
-
+The user can find the different testdriver test steps as an overview in the Test-Step-Selektor area, to define test cases.
 
 #### 4. The Test-Execution-Navigator area
+Here you can excute the chosen testcase through clicking the start button on top left corner of this area. After test execution the results of the separate test case steps are shown in this area.
+* Green icons representing a successful test run. 
+* Red icons representing an abortion of the test run. The possible reason of the failure situation will be recorded briefly. The details cause of failure will be presented in the Test-Execution-Details area. 
 
 
 #### 5. The Test-Execution-Details area
-
+In this area, details cause of failure and accordingly details of test case steps are presented.
 
 ----
 

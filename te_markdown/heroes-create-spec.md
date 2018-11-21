@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tutorial: specification "create hero"
+title: Tutorial specification "create hero"
 permalink: /te_markdown/heroes-create-spec/
 ---
 
