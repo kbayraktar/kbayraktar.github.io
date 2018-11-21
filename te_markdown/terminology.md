@@ -10,7 +10,6 @@ Test-Editor-Web is a lightweight application for specifying, implementing, and e
 
 ![Overview](/images/te.overview.svg?sanitize=true){:class="img-responsive"}
 
-### The different areas of the Test-Editor-Web
 In the screenshot above you can see the different areas of Test-Editor-Web, indicated in yellow.
 In the following, each area is briefly described.
 
