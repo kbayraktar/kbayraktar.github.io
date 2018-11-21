@@ -4,32 +4,30 @@ title: Tutorial: specification "create hero"
 permalink: /te_markdown/heroes-create-spec/
 ---
 
-- Estimated reading time: 3 minutes
+- Estimated reading time: 5 minutes
 - Audience: [Curious party], Noob, Somewhat experienced, Experienced, Expert
 
-Test specifications are expectations that the software under test should satisfy.
+### Test specifications are expectations that the software under test should satisfy.
 
-In a **test first** environment, they are written before the actual feature is implemented.
+### In a **test first** environment, they are written before the actual feature is implemented.
 
-There are only minimal rules as to how these specifications should be written. It is however good practice to follow a given-when-then pattern to group details.
+### There are only minimal rules as to how these specifications should be written. It is however good practice to follow a given-when-then pattern to group details.
 
-Each test specification should describe a non trivial, focused domain expectation.
+### Each test specification should describe a non trivial, focused domain expectation.
 
-Each specification will eventually be implemented by a test case. A test specification is covered through non failing test cases that implement this specification.
+### Each specification will eventually be implemented by a test case. A test specification is covered through non failing test cases that implement this specification.
 
 ## How do I write specifications?
 
-The software under test is an implementation of the heroes tutorial of the angular framework (see).
+The software under test is an implementation of the heroes tutorial of the angular framework (see here).
 
-[How do I get a running test-editor-instance?](local-setup)
-
-![screencast: create hero specification](/images/tutorial/tutorial.heroes.create.spec.gif "screencast: create hero specification")
+![screencast: create hero](/images/tutorial/tutorial.heroes.create.app.gif "screencast: create hero")
 
 Given you have a running instance of the test-editor-web, the following (trivial) steps suffice:
 
 - navigate to (or create) the folder to hold the specification
 - create a new file with the extension '.tsl' (e.g. CreateHero.tsl)
-- Write the specification name into the opened editor, prefixing it with '#' (e.g. '# CreateHero'). Currently you need to type a new line before the '#'.
+- Write the specification name into the opened editor, prefixing it with '#' (e.g. '# CreateHero').
 - Write each aspect of the specification (specification steps):
 ```
         * Given: I am on the heroes page
@@ -37,7 +35,11 @@ Given you have a running instance of the test-editor-web, the following (trivial
         * Then: The hero should be the last one of the list
 ```
 
+![screencast: create hero specification](/images/tutorial/tutorial.heroes.create.spec.gif "screencast: create hero specification")
+
 That's it. The first specification is in place.
+
+[How do I get a running test-editor-instance?](local-setup)
 
 If you want to know how to implement and execute a test case covering this implementation, please move on (link)
 
