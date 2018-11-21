@@ -444,8 +444,7 @@ a.web-button-grey {
   text-decoration: none;
 }
 
-a.web-button-grey-small {
-  @extend a.web-button-grey;
+.reduced-padding {
   padding: 2px 3px;
 }
 

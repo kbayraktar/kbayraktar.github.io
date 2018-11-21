@@ -56,10 +56,10 @@ Given you have a running instance of the test-editor-web, the following steps ar
 That's it. Your first test in place. 
 
 Do you want to know how to execute your test? 
-[read more](heroes-create-testcase-execution){:class="web-button-grey-small"}
+[read more](heroes-create-testcase-execution){:class="web-button-grey reduced-padding"}
 
 Do you want to learn more about the editor and how the tests can be written, making use of content completion etc.?
-[read more](heroes-create-testcase-editor){:class="web-button-grey-small"}
+[read more](heroes-create-testcase-editor){:class="web-button-grey reduced-padding"}
 
 ## Some reflections
 
@@ -76,4 +76,4 @@ The vocabulary used in test cases is largely defined through artifacts written i
 For the given tutorial a minimal AML was provided (Heroes.aml), partially describing the software under test.
 
 Do you want to learn more about the AML?
-[read more](heroes-create-aml){:class="web-button-grey-small"}
+[read more](heroes-create-aml){:class="web-button-grey reduced-padding"}
