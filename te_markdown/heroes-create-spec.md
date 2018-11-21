@@ -17,7 +17,7 @@ Each specification will eventually be implemented by a test case. A test specifi
 
 The software under test is an implementation of the heroes tutorial of the angular framework (see here).
 
-![screencast: create hero](/images/tutorial/tutorial.heroes.create.app.gif "screencast: create hero")
+![screencast: create hero](/images/tutorial/tutorial.heroes.create.app.gif "screencast: create hero"){:align="right"}
 
 Given you have a running instance of the test-editor-web, the following (trivial) steps suffice:
 
