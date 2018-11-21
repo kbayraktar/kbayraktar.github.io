@@ -4,7 +4,7 @@ title: Test Your Domain
 permalink: /te_markdown/domainexperts/
 ---
 
-* Estimated reading time: 8 minutes
+* Estimated reading time: 3 minutes
 * Audience: [Curious party], Noob, Somewhat experienced, Experienced, Expert
 
 User acceptance testing is a collaborative activity involving domain experts, testers, and developers. Therefore, effective and efficient tools have to address the different needs of each of these roles. In particular, they must not expose technical aspects that would shut out less tech-savvy users that nevertheless need to participate in the process. 
