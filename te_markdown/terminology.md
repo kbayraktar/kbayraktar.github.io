@@ -20,7 +20,7 @@ He can create, delete, rename, cut, copy and paste test artifacts and refresh th
 The user can filter the different test-artifacts, so that just the specific test-artifact is visible which was selected.
 
 #### 2. The Editor area
-This area is the place to write different test artifacts. The editor supports the user with a content completion of the different possibilities during typing and saving your test case e.g. through the shortcut ```STRG + S``` . 
+This area is the place to write different test artifacts. The editor supports the user with a content completion of the different possibilities during typing and saving your test case, e.g. through the shortcut ```STRG + S```.
 
 #### 3. The Test-Step-Selector area
 The user can find the different testdriver test steps as an overview in the Test-Step-Selektor area, to define test cases.
