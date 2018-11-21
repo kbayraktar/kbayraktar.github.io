@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tutorial specification "create hero"
+title: Write Your First Test Specification in Five Minutes
 permalink: /te_markdown/heroes-create-spec/
 ---
 
