@@ -5,7 +5,7 @@ permalink: /te_markdown/heroes-create-testcase/
 ---
 
 - Estimated reading time: 5 minutes
-- Audience: [Curious party], Noob, Somewhat experienced, Experienced, Expert
+- Audience: [Curious party], Newbies, Somewhat experienced, Experienced, Expert
 
 Test cases implement test specifications. They are executable and are therefore more strict on syntax than test specifications are. The vocabulary that is used within these
 test cases are largely controlled by the user of the test editor, however, sane defaults are provided.
@@ -16,12 +16,12 @@ The software under test that is used for this example is an implementation of th
 
 ![screencast: create hero](/images/tutorial/tutorial.heroes.create.app.gif "screencast: create hero"){:align="right"}
 
-Given you have a running instance of the test-editor-web, the following steps are necessary to implement the test specification.
+Given you have a running instance of the test-editor-web (see [here](/te_markdown/local-setup)), the following steps are necessary to transfer the test specification (see [here](/te_markdown/heroes-create-spec)).
 - navigate to (or create) the folder to hold the test case
 - create a new file with the extension '.tcl' (e.g. CreateHero.tcl)
-- Write the test case name into the opened editor, prefixing it with '#' (e.g. '# CreateHero')
-- State that this test case implements the `CreateHero` specification ('implements CreateHero')
-- Copy the specification steps of the implemented test specification (all three lines starting with '*')
+- Write the test case name into the opened editor, prefixing it with '#' (e.g. `# CreateHero`)
+- State that this test case implements the `CreateHero` specification ('implements CreateHero') 
+- Copy the specification steps of the implemented test specification (all three lines starting with '*') (see [here](/te_markdown/heroes-create-spec)) 
 - Now implement each specification step with the actual test flow intended
   - `* Given: I am on the heroes page`
 ```
@@ -67,7 +67,7 @@ The test case is expected to be written by a tester before the application is in
 
 * It represents a concrete test execution plan that implements a test specification and can be readily understood by the domain expert who wrote the specification
 * It is concrete insofar as to be executable 
-* It is the concrete and detailed expection developers can realize their application for
+* It is the concrete and detailed expectation developers can realize their application for
 * It functions as a bridge between actual feature implementation (developer) and feature specification (domain expert), working as an artifact for discussion between domain expert, tester and developer
 
 It is quite common to have the test case change because of implementation issues that could not have been foreseen. Changes need to be discussed though, which again has the benefit of sharing a common understanding of the feature to be implemented between domain expert, tester and developer. 
