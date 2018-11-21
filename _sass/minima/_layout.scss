@@ -444,6 +444,11 @@ a.web-button-grey {
   text-decoration: none;
 }
 
+a.web-button-grey-small {
+  @extend a.web-button-grey;
+  padding: 2px 3px;
+}
+
 a.web.button:hover {
   .web-button:hover, .web-button:focus, .web-button:active, .web-button.active, .web-button.disabled, .web-button[disabled] {
     color: #fff;
