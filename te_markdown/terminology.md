@@ -17,6 +17,7 @@ Test-Editor-Web is a lightweight application for specifying, implementing, and e
 * Software under test (SUT)
 * Test Case Language (TCL)
 * Test-Editor-Web
+* Test fixture
 * Test Specification Language (TSL)
 * Tester
 
