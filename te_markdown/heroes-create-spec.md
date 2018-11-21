@@ -15,7 +15,7 @@ Each specification will eventually be implemented by a test case. A test specifi
 
 ## How do I write specifications?
 
-The software under test is an implementation of the heroes tutorial of the angular framework (see here).
+The software under test that is used for this example is an implementation of the heroes tutorial of the angular framework (see [here](https://angular.io/tutorial)).
 
 ![screencast: create hero](/images/tutorial/tutorial.heroes.create.app.gif "screencast: create hero"){:align="right"}
 
@@ -23,7 +23,7 @@ Given you have a running instance of the test-editor-web, the following (trivial
 
 - navigate to (or create) the folder to hold the specification
 - create a new file with the extension '.tsl' (e.g. CreateHero.tsl)
-- Write the specification name into the opened editor, prefixing it with '#' (e.g. '# CreateHero').
+- Write the specification name into the opened editor, prefixing it with '#' (e.g. '# CreateHero')
 - Write each aspect of the specification (specification steps):
 ```
         * Given: I am on the heroes page
@@ -37,9 +37,9 @@ That's it. The first specification is in place.
 
 [How do I get a running test-editor-instance?](local-setup)
 
-If you want to know how to implement and execute a test case covering this implementation, please move on (link)
+If you want to know how to implement and execute a test case covering this implementation, [read more](heroes-create-testcase){:class="web-button-grey"}
 
-If you want to know more about how specifications can and should be written, click here (link)
+If you want to know more about how specifications can and should be written, [read more](test-specifications){:class="web-button-grey"}
 
 ## Some reflections
 
@@ -52,7 +52,7 @@ The specification is expected to be written by a domain expert before the implem
 It is quite common to have the specification change (slightly) when actually implementing the feature. Even under change, the specification must
 remain the guiding principle for the tests.
 
-For the domain expert to write down specifications without having to think about the tooling itself, the specification is supposed to require
+The domain expert can write down specifications without having to think about the tooling itself. Writing specifications requires
 minimal knowledge about the test-editor-web itself and the language to be used to describe specifications.
 
 Specifications contain specification steps. Specification steps start a line with '*'. They can be multiline and hold UTF-8 characters. Implementations of a specification must make sure to implement each specification step. 
