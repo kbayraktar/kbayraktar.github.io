@@ -5,6 +5,7 @@ permalink: /te_markdown/local-setup/
 ---
 
 Estimated reading time: 10 minutes
+
 Prerequisites: Internet connectivity, Browser (Firefox, Chrome or Chromium), Google Account, Docker installation
 
 The **Test-Editor-Web** is designed to be hosted such that users only need a browser to make use of the Test-Editor-Web.

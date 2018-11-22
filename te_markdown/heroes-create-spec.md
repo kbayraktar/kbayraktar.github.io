@@ -4,8 +4,7 @@ title: Write Your First Test Specification in Five Minutes
 permalink: /te_markdown/heroes-create-spec/
 ---
 
-- Estimated reading time: 5 minutes
-- Audience: [Curious party], Newbies, Somewhat experienced, Experienced, Expert
+Estimated reading time: 5 minutes
 
 Test specifications are expectations that the software under test should satisfy.
 In a **test first** environment, they are written before the actual feature is implemented.

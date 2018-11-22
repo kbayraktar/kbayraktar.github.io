@@ -12,5 +12,5 @@ Modern, agile development practices encompass continuous integration, delivery, 
 
 ## Try it for Yourself
 
-* Do you want to write your first test specification in 5 minute? [read more](/te_markdown/heroes-create-spec){:class="web-button-grey reduced-padding"}
+* Do you want to write your first test specification in 5 minutes? [read more](/te_markdown/heroes-create-spec){:class="web-button-grey reduced-padding"}
 * Do you want to Write your first test case in 8 minutes? [read more](/te_markdown/heroes-create-testcase){:class="web-button-grey reduced-padding"}

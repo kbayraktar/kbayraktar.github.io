@@ -4,7 +4,7 @@ title: Tutorials
 permalink: /te_markdown/tutorials/
 ---
 
-* [Writing Test Specifications](/te_markdown/heroes-create-spec}
+* [Writing Test Specifications](/te_markdown/heroes-create-spec)
 
 * [Writing Test Cases ](/te_markdown/heroes-create-testcase)
 
