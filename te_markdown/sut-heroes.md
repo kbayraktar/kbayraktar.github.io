@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Software under test: Angular Tour of Heroes
+title: "Software under test: Angular Tour of Heroes"
 permalink: /te_markdown/sut-heroes/
 ---
 
