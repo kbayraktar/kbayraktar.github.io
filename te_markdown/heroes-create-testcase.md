@@ -14,14 +14,19 @@ test cases are largely controlled by the user of the test editor, however, sane 
 
 The software under test that is used for this example is an implementation of the heroes tutorial of the angular framework (see [here](https://angular.io/tutorial)).
 
-![screencast: create hero](/images/tutorial/tutorial.heroes.create.app.gif "screencast: create hero"){:align="right"}
+You want to know more about the software that is tested here? [read more](sut-heroes){:class="web-button-grey reduced-padding"}
 
-Given you have a running instance of the test-editor-web, the following steps are necessary to implement the test specification.
+The test specification that is implemented in this example is described in detail in this [tutorial](hero-create-spec).
+
+Given you have a running instance of the test-editor-web (see [here](local-setup)), the following steps are necessary to implement the test specification.
 - navigate to (or create) the folder to hold the test case
 - create a new file with the extension '.tcl' (e.g. CreateHero.tcl)
+![screencase: create test case file](/images/tutorial/tutorial.heroes.create.testcase.1.create-file.gif "screencast: create test case file")
 - Write the test case name into the opened editor, prefixing it with '#' (e.g. '# CreateHero')
 - State that this test case implements the `CreateHero` specification ('implements CreateHero')
+![screencase: name test case](/images/tutorial/tutorial.heroes.create.testcase.2.enter-name.gif "screencast: name test case")
 - Copy the specification steps of the implemented test specification (all three lines starting with '*')
+![screencase: copy specification](/images/tutorial/tutorial.heroes.create.testcase.3.copy-tsl.gif "screencast: copy specification")
 - Now implement each specification step with the actual test flow intended
   - `* Given: I am on the heroes page`
 ```
@@ -29,6 +34,7 @@ Given you have a running instance of the test-editor-web, the following steps ar
         - Start <Firefox>
         - Browse "http://sut:4200/heroes"
 ```
+![screencase: enter given](/images/tutorial/tutorial.heroes.create.testcase.4.enter-given.gif "screencast: enter given")
   - `* When: I create a hero named "Sancho"`
 ```
         Component: org.testeditor.heroes.Heroes
@@ -38,6 +44,7 @@ Given you have a running instance of the test-editor-web, the following steps ar
         - Wait "2" seconds until <Save> is found
         - Click <Save>
 ```
+![screencase: enter when](/images/tutorial/tutorial.heroes.create.testcase.5.enter-when.gif "screencast: enter when")
   - `* Then: The hero should be the last one of the list`
 ```
         Component: org.testeditor.heroes.Heroes
@@ -50,8 +57,7 @@ Given you have a running instance of the test-editor-web, the following steps ar
         Component: org.testeditor.fixture.web.WebBrowser
         - Close browser
 ```
-
-![screencase: create hero test case](/images/tutorial/tutorial.heroes.create.testcase.gif "screencast: create hero test case")
+![screencase: enter then](/images/tutorial/tutorial.heroes.create.testcase.6.enter-then.gif "screencast: enter then")
 
 That's it. Your first test in place. 
 
@@ -67,8 +73,8 @@ The test case is expected to be written by a tester before the application is in
 
 * It represents a concrete test execution plan that implements a test specification and can be readily understood by the domain expert who wrote the specification
 * It is concrete insofar as to be executable 
-* It is the concrete and detailed expection developers can realize their application for
-* It functions as a bridge between actual feature implementation (developer) and feature specification (domain expert), working as an artifact for discussion between domain expert, tester and developer
+* It is the concrete and detailed expectation developers can realize their application for
+* It functions as a bridge between actual feature implementation (developer) and feature specification (domain expert), working as an artifact for discussion between domain expert, tester, and developer
 
 It is quite common to have the test case change because of implementation issues that could not have been foreseen. Changes need to be discussed though, which again has the benefit of sharing a common understanding of the feature to be implemented between domain expert, tester and developer. 
 
