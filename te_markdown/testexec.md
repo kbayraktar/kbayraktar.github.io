@@ -5,7 +5,7 @@ permalink: /te_markdown/testexec/
 ---
 
 * Estimated reading time: 2 minutes
-* Audience: [Curious party], Newbies, Somewhat experienced, Experienced, Expert
+* Audience: Project Managers, DevOps Engineers, Testers, Developers
 
 User acceptance tests, like any automated tests, should repeatable, with reproducible test results. For that, it is important that tests run in a controlled environment that shields them from unwanted influences of the surrounding execution platform, and from interference with other tests.
 
