@@ -13,3 +13,6 @@ You can find the source code for Test-Editor Web at GitHub:
 
 
 [test-editor-organization]: https://github.com/test-editor
+
+# Overview and Terminology
+[Overview and Terminology](/te_markdown/terminology/) 

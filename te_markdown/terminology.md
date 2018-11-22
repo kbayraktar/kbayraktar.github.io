@@ -8,7 +8,30 @@ Test-Editor-Web is a lightweight application for specifying, implementing, and e
 
 ## Overview
 
-<!--- TODO: insert (annotated?) overview image and briefly describe the main areas of the user interface -->
+![Overview](/images/te.overview.svg?sanitize=true){:class="img-responsive"}
+
+In the screenshot above you can see the different areas of Test-Editor-Web, indicated in yellow.
+In the following, each area is briefly described.
+
+### 1. Test Navigator
+In this area you can specify the structure of the different test artifacts.
+You can create, delete, rename, cut, copy, and paste test artifacts and refresh the workspace.
+In addition you can filter the different test-artifacts, so that just the specific test-artifact is visible which was selected.
+
+### 2. Editor Area
+This area is the place to write different test artifacts. The editor supports you with a content completion of the different possibilities during typing and saving your test case, e.g. through the shortcut ```STRG + S```.
+
+### 3. Test Step Selector
+The Test Step Selector provides you with an overview of the test steps available for defining test cases.
+
+### 4. Test Execution Navigator
+Here you can excute the chosen test case by clicking the start button on the top left corner of this area. After test execution, the results of the individual test steps are indicated by either green (success) or red (failure) icons. In the latter case, details regarding the cause of the failure can be inspected in the _Test Execution Details_.
+
+### 5. Test Execution Details
+In this area, details about the test step selected in the _Test Execution Navigator_ are shown. In case of failures during execution, this area offers hints about what went wrong. The general sequence of events during test execution can be traced by accessing _logs_ and inspecting _screenshots_.
+
+
+----
 
 ## Glossary
 
