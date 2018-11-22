@@ -9,4 +9,6 @@ Estimated reading time: 5 minutes
 
 ## How do I execute a test case?
 
+![screencast: execute test case](/images/tutorial/tutorial.heroes.create.testrun.gif "screencast: execute test case")
+
 ``` ! UNDER CONSTRUCTION ! ```

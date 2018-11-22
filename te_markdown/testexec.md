@@ -10,6 +10,9 @@ User acceptance tests, like any automated tests, should repeatable, with reprodu
 
 **Test-Editor-Web** encapsulates test runs in a Docker container, which provides a high degree of both isolation from outside influences, and great control over the test environment inside. The containerization further imparts a high degree of flexibility in terms of deployment, allowing tests to be run virtually anywhere, and at scale. The same container is used locally as it is used in the cloud.
 
+![screencast: execute test case](/images/tutorial/tutorial.heroes.create.testrun.gif "screencast: execute test case")
+
+
 ## Learn More
 
 * [Test in Your Browser](/te_markdown/webui): See the advantages of the Test-Editor-Web being delivered through the browser.

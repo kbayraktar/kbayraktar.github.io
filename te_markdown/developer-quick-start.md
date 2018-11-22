@@ -4,8 +4,7 @@ title: Developer quick start
 permalink: /te_markdown/developer-quick-start/
 ---
 
-- Estimated reading time: 5 minutes
-- Audience: Curious party, Noob, Somewhat experienced, [Experienced], Expert
+Estimated reading time: 5 minutes
 
 The **Test-Editor-Web** is basically composed of three projects (all open source, all hosted on github.com)
 1. [test-editor-web](https://github.com/test-editor/test-editor-web), the UI project
@@ -35,6 +34,7 @@ It is an angular 5 project using yarn. It is composed of several angular UI-Comp
 The UI contains no business logic. All (non UI) functionality is realized through `REST` calls into the backend.
 
 Technologies: angular 5, typescript
+
 Supporting Technologies: nix, git, yarn, ng-packagr
 
 ## Test-editor-backend (REST services)
@@ -50,6 +50,7 @@ The backend project consists of two subprojects
 2. persistence backend (in org.testeditor.web.backend.persistence), providing persistence and test execution `REST` endpoints
 
 Technologies: java 10, xtend, dropwizard
+
 Supporting Technologies: nix, git, gradle
 
 ## Test-editor-xtext-gradle (Languages)
@@ -63,4 +64,5 @@ You can edit the project files (mostly [xtend](http://www.eclipse.org/xtend/) an
 The language project consist of a quite a lot of subprojects which are described in more detail in the project [readme](https://github.com/test-editor/test-editor-xtext-gradle#project-overview).
 
 Technologies: java 10, xtend, xtext
+
 Supporting Technologies: nix, git, gradle
