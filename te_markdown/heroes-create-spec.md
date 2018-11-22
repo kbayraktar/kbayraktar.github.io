@@ -5,7 +5,7 @@ permalink: /te_markdown/heroes-create-spec/
 ---
 
 - Estimated reading time: 5 minutes
-- Audience: [Curious party], Noob, Somewhat experienced, Experienced, Expert
+- Audience: [Curious party], Newbies, Somewhat experienced, Experienced, Expert
 
 Test specifications are expectations that the software under test should satisfy.
 In a **test first** environment, they are written before the actual feature is implemented.
@@ -25,6 +25,7 @@ Given you have a running instance of the test-editor-web, the following (trivial
 - create a new file with the extension '.tsl' (e.g. CreateHero.tsl)
 - Write the specification name into the opened editor, prefixing it with '#' (e.g. '# CreateHero')
 - Write each aspect of the specification (specification steps):
+
 ```
         * Given: I am on the heroes page
         * When: I create a hero named "Sancho"
