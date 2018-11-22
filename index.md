@@ -10,7 +10,7 @@ Here you can find a brief [overview](/te_markdown/terminology/) of the Test-Edit
   
 # Getting started  
 * [Writing a Test Specification in 5 minutes](/te_markdown/heroes-create-spec/)
-* [Writing a Test Cases in 5 minutes](/te_markdown/heroes-create-testcase/)
+* [Writing a Test Case in 5 minutes](/te_markdown/heroes-create-testcase/)
 * [Test Execution and Reports](/te_markdown/heroes-create-testcase-execution) 
 * [Developer quick start](/te_markdown/developer-quick-start)
 
