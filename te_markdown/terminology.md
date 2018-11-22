@@ -45,7 +45,7 @@ In this area, details about the test step selected in the _Test Execution Naviga
 : A user of the [software under test](#software-under-test), or other stakeholder, who has a deep understanding of the problem domain. Domain experts specify what they expect the system to do and how it should behave, using the [test specification language (TSL)](#test-specification-language).
 
 <a name="developer"></a>Developer
-: A person who is involved in the development of the [software under test](#software-under-test). Developers execute user acceptance tests described with the [test case language (TCL)](#test-case-language) to check their progress with each development increment, and to validate their implementation.
+: A person who is involved in the development of the [software under test](#software-under-test). User acceptance tests described with the [test case language (TCL)](#test-case-language) are continuously executed during the development process to check the progress with each development increment, and to validate the implementation.
 
 <a name="software-Under-Test"></a>Software Under Test (SUT)
 : The software system for which user acceptance tests are created by [testers](#tester). It is (going to be) used by [domain experts](#domain-expert), and implemented and maintained by [developers](#developer).
