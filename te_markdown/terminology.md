@@ -40,6 +40,7 @@ In this area, details about the test step selected in the _Test Execution Naviga
 * Software under test (SUT)
 * Test Case Language (TCL)
 * Test-Editor-Web
+* Test fixture
 * Test Specification Language (TSL)
 * Tester
 
