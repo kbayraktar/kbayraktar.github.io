@@ -39,7 +39,7 @@ In this area, details about the test step selected in the _Test Execution Naviga
 : A set of platform- or application-specific [test steps](#test-step), mapped to concrete actions to be performed for testing, that are implemented in [test fixtures](#test-fixture).
 
 <a name="application-mapping-language"></a>Application Mapping Language (AML)
-: A language used by [testers](#tester) to define platform- or application-specific [test steps](#test-step), and by [developers](#developers) to map these steps to the concrete actions to be performed for testing, implemented in [test fixtures](#test-fixture).
+: A language used by [testers](#tester) to define the platform- or application-specific vocabulary for the [test steps](#test-step), and by [developers](#developers) to map these steps to the concrete actions to be performed for testing, implemented in [test fixtures](#test-fixture).
 
 <a name="domain-expert"></a>Domain Expert
 : A user of the [software under test](#software-under-test), or other stakeholder, who has a deep understanding of the problem domain. Domain experts specify what they expect the system to do and how it should behave, using the [test specification language (TSL)](#test-specification-language).
