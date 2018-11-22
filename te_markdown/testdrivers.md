@@ -4,8 +4,8 @@ title: Test Your Application
 permalink: /te_markdown/testdrivers/
 ---
 
-* Estimated reading time: 8 minutes
-* Audience: [Curious party], Noob, Somewhat experienced, Experienced, Expert
+* Estimated reading time: 3 minutes
+* Audience: [Curious party], Newbies, Somewhat experienced, Experienced, Expert
 
 User acceptance tests should focus on the needs and expected behaviors of the software under test from a user-centric perspective, expressed in technology-agnostic terms of the application domain. However, to automate these tests, the particular technology stack of the software under test have to be taken into account. Effective user acceptance test tools have to cater to both requirements, while also being generic enough to be applicable to the testing of different applications build on diverse platforms and technologies.
 

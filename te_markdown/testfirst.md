@@ -4,8 +4,8 @@ title: Test First
 permalink: /te_markdown/testfirst/
 ---
 
-* Estimated reading time: 8 minutes
-* Audience: [Curious party], Noob, Somewhat experienced, Experienced, Expert
+* Estimated reading time: 3 minutes
+* Audience: [Curious party], Newbies, Somewhat experienced, Experienced, Expert
 
 In agile development, *domain experts* write user stories with explicit *acceptance criteria* that are used to guide *developers* during implementation, and to decide when the story is completed. To avoid delays due to misunderstandings, acceptance criteria should be rigidly defined to leave no room for ambiguities, and facilitate continuous testing from inception to completion, to drive incremental development.
 
