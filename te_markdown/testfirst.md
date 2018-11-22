@@ -23,4 +23,4 @@ The test-first practice, enabled by Test-Editor-Web on the user acceptance level
 
 ## Try it for Yourself
 
-* Do you want to write your first test specification in 5 minute? [read more](/te_markdown/heroes-create-spec){:class="web-button-grey reduced-padding"}
+* Do you want to write your first test specification in 5 minutes? [read more](/te_markdown/heroes-create-spec){:class="web-button-grey reduced-padding"}

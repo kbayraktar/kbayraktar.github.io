@@ -4,8 +4,7 @@ title: "Tutorial: test case \"create hero\""
 permalink: /te_markdown/heroes-create-testcase/
 ---
 
-- Estimated reading time: 8 minutes
-- Audience: [Curious party], Newbies, Somewhat experienced, Experienced, Expert
+Estimated reading time: 8 minutes
 
 Test cases implement test specifications. They are executable and are therefore more strict on syntax than test specifications are. The vocabulary that is used within these
 test cases are largely controlled by the user of the test editor, however, sane defaults are provided.
