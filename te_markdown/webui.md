@@ -4,8 +4,7 @@ title: Test in Your Browser
 permalink: /te_markdown/webui/
 ---
 
-* Estimated reading time: 2 minutes
-* Audience: [Curious party], Newbies, Somewhat experienced, Experienced, Expert
+Estimated reading time: 2 minutes
 
 Testing, on any level, is an indispensible quality assurance measure, yet is often neglected. Therefore, it is all the more important that the entry barrier to adopt a user acceptance test tool is as low as possible, both from the end user's perspective, as well as for maintainers and administrators providing technical support. Desktop applications require users to install them on their own machines, and may present administrators with the challenge of providing the latest updates.
 
@@ -17,5 +16,5 @@ Testing, on any level, is an indispensible quality assurance measure, yet is oft
 
 ## Try it for Yourself
 
-* Write your first test specification in 5 minutes.
-* Write your first test case in 5 minutes.
+* Do you want to write your first test specification in 5 minute? [read more](/te_markdown/heroes-create-spec){:class="web-button-grey reduced-padding"}
+* Do you want to Write your first test case in 8 minutes? [read more](/te_markdown/heroes-create-testcase){:class="web-button-grey reduced-padding"}

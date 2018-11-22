@@ -4,8 +4,7 @@ title: Test Containerized
 permalink: /te_markdown/testexec/
 ---
 
-* Estimated reading time: 2 minutes
-* Audience: [Curious party], Newbies, Somewhat experienced, Experienced, Expert
+Estimated reading time: 2 minutes
 
 User acceptance tests, like any automated tests, should repeatable, with reproducible test results. For that, it is important that tests run in a controlled environment that shields them from unwanted influences of the surrounding execution platform, and from interference with other tests.
 
@@ -18,5 +17,5 @@ User acceptance tests, like any automated tests, should repeatable, with reprodu
 
 ## Try it for Yourself
 
-* Write your first test specification in 5 minutes.
-* Write your first test case in 5 minutes.
+* Do you want to write your first test specification in 5 minute? [read more](/te_markdown/heroes-create-spec){:class="web-button-grey reduced-padding"}
+* Do you want to Write your first test case in 8 minutes? [read more](/te_markdown/heroes-create-testcase){:class="web-button-grey reduced-padding"}

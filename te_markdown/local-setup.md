@@ -4,11 +4,14 @@ title: Local Installation / Hosting
 permalink: /te_markdown/local-setup/
 ---
 
-- Estimated reading time: 10 minutes
-- Audience: Curious party, Noob, [Somewhat experienced], Experienced, Expert
-- Prerequisites: Internet connectivity, Browser (Firefox, Chrome or Chromium), Google Account, Docker installation
+Estimated reading time: 10 minutes
+Prerequisites: Internet connectivity, Browser (Firefox, Chrome or Chromium), Google Account, Docker installation
 
-The test-editor-web consists of the web ui and a couple of service backends that do the heavy lifting for the ui.
+The **Test-Editor-Web** is designed to be hosted such that users only need a browser to make use of the Test-Editor-Web.
+Since no free hosting is currently available the Test-Editor-Web can be downloaded to your local machine and will be _hosted_ there. 
+Doing this will require to execute some shell commands on a linux machine and will therefor not be accessible to everyone. 
+Please accept our apologies for that! Your IT-department will most likely be able to help you out though. And yes, there might even be some people out there
+who will be able to follow the installation description below.
 
 ## Prerequisites
 
@@ -29,6 +32,8 @@ bash run-hero-create-specification # bring up the first tutorial
 Now is the time to grab a coffee. I'm afraid this will take a while.
 
 The necessary docker images are fetched from [docker-hub](https://hub.docker.com/u/testeditor/) which will take its time, depending on your connectivity. As soon as the images are fully downloaded and extracted the containers are started. Once the containers are ready, the browser is started automatically and you will be presented with the test-editor-web login screen. If something unexpected happens or the whole process is interrupted, it might help to just run `bash run-hero-create-specification` again. Already downloaded elements won't be downloaded again.
+
+The test-editor-web consists of the web ui and a couple of service backends that do the heavy lifting for the ui.
 
 ## Login
 

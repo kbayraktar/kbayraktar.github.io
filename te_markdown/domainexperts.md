@@ -4,8 +4,7 @@ title: Test Your Domain
 permalink: /te_markdown/domainexperts/
 ---
 
-* Estimated reading time: 3 minutes
-* Audience: [Curious party], Newbies, Somewhat experienced, Experienced, Expert
+Estimated reading time: 3 minutes
 
 User acceptance testing is a collaborative activity involving domain experts, testers, and developers. Therefore, effective and efficient tools have to address the different needs of each of these roles. In particular, they must not expose technical aspects that would shut out less tech-savvy users that nevertheless need to participate in the process. 
 For example, tools embedded into heavy-weight integrated development environments expose far too many unneeded features and capabilities that distract from the task at hand, and unnecessarily steepen the learning curve. The same is true for using existing general-purpose programming languages to express test specifications and test cases, that were not build with these use cases in mind.
@@ -32,5 +31,5 @@ Furthermore, the user interface has been kept clear and reduced to the essential
 
 ## Try it for Yourself
 
-* Write your first test specification in 5 minutes.
-* Write your first test case in 5 minutes.
+* Do you want to write your first test specification in 5 minute? [read more](/te_markdown/heroes-create-spec){:class="web-button-grey reduced-padding"}
+* Do you want to Write your first test case in 8 minutes? [read more](/te_markdown/heroes-create-testcase){:class="web-button-grey reduced-padding"}
