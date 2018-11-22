@@ -15,3 +15,5 @@ permalink: /te_markdown/tutorials/
 * Tips and Tricks (soon to be described ...)
 
 * [Local installation and setup](/te_markdown/local-setup)
+
+* [Developer quickstart](/te_markdown/developer-quick-start)

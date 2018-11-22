@@ -6,11 +6,12 @@ layout: home
 ---
 
 # Overview
-Here you can find a brief overview of the Test-Editor-Web [Overview](/te_markdown/terminology/) 
+Here you can find a brief [overview](/te_markdown/terminology/) of the Test-Editor-Web. 
   
 # Getting started  
-* [Writing Test Specifications in 5 minutes](/te_markdown/heroes-create-spec/)
-* [Writing Test Cases in 5 minutes](/te_markdown/heroes-create-testcase/)
+* [Writing a Test Specification in 5 minutes](/te_markdown/heroes-create-spec/)
+* [Writing a Test Cases in 5 minutes](/te_markdown/heroes-create-testcase/)
 * [Test Execution and Reports](/te_markdown/heroes-create-testcase-execution) 
+* [Developer quick start](/te_markdown/developer-quick-start)
 
 ----
