@@ -4,20 +4,14 @@ title: Tutorials
 permalink: /te_markdown/tutorials/
 ---
 
-# Installation and Required Configurations 
+* [Writing Test Specifications](/te_markdown/heroes-create-spec}
 
-## Quick Start
-A quick guide to set up and start your first automated acceptance test with Test-Editor-Web, a complete web test automation tool, built on top of Selenium, Xtend and Gradle. Now you can start automation testing on web, mainframe with least efforts and no costs in your own domain specific language, that you are used to. Free download at (link)
+* [Writing Test Cases ](/te_markdown/heroes-create-testcase)
 
+* [Test Execution and Reports ](/te_markdown/heroes-create-testcase-execution)
 
-# Getting Started 
+* Continuous Integration (soon to be described ...)
 
-# Writing Test Specifications
+* Tips and Tricks (soon to be described ...)
 
-# Writing Test Cases 
-
-# Test Execution and Reports 
-
-# Continuous Integration
-
-# Tips and Tricks 
+* [Local installation and setup](/te_markdown/local-setup)

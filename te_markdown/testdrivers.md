@@ -4,8 +4,7 @@ title: Test Your Application
 permalink: /te_markdown/testdrivers/
 ---
 
-* Estimated reading time: 3 minutes
-* Audience: [Curious party], Newbies, Somewhat experienced, Experienced, Expert
+Estimated reading time: 3 minutes
 
 User acceptance tests should focus on the needs and expected behaviors of the software under test from a user-centric perspective, expressed in technology-agnostic terms of the application domain. However, to automate these tests, the particular technology stack of the software under test have to be taken into account. Effective user acceptance test tools have to cater to both requirements, while also being generic enough to be applicable to the testing of different applications build on diverse platforms and technologies.
 
@@ -25,5 +24,5 @@ Test-Editor-Web is extensible in this respect, and additional test fixtures can 
 
 ## Try it for Yourself
 
-* Write your first test specification in 5 minutes.
-* Write your first test case in 5 minutes.
+* Do you want to write your first test specification in 5 minute? [read more](/te_markdown/heroes-create-spec){:class="web-button-grey reduced-padding"}
+* Do you want to Write your first test case in 8 minutes? [read more](/te_markdown/heroes-create-testcase){:class="web-button-grey reduced-padding"}

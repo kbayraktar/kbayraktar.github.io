@@ -4,11 +4,12 @@ layout: page
 
 # Download
 
-This is the base documentation site of the Test-Editor project. You can find out more info about creating test-specifications, test-cases, the usage of the Test-Editor, customizing your test-drivers for the specific application under test, as well as quick local installation guide at [hub.docker.com/testeditor/web](https://hub.docker.com/r/testeditor/web/)
+Installing and setting up the **Test-Editor-Web** (locally) [read more](/te_markdown/local-setup){:class="web-button-grey reduced-padding"}
 
 You can find the source code for Test-Editor Web at GitHub:
-[test-editor][test-editor-organization] /
-[test-editor-web](https://github.com/test-editor/test-editor-web)
-
+[test-editor][test-editor-organization] on github
+[test-editor](https://hub.docker.com/u/testeditor/) on docker hub
+[test-editor](https://www.npmjs.com/search?q=keywords:test-editor) on npm
+[test-editor](https://bintray.com/test-editor) on bintray
 
 [test-editor-organization]: https://github.com/test-editor

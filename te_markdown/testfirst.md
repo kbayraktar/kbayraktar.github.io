@@ -4,8 +4,7 @@ title: Test First
 permalink: /te_markdown/testfirst/
 ---
 
-* Estimated reading time: 3 minutes
-* Audience: [Curious party], Newbies, Somewhat experienced, Experienced, Expert
+Estimated reading time: 3 minutes
 
 In agile development, *domain experts* write user stories with explicit *acceptance criteria* that are used to guide *developers* during implementation, and to decide when the story is completed. To avoid delays due to misunderstandings, acceptance criteria should be rigidly defined to leave no room for ambiguities, and facilitate continuous testing from inception to completion, to drive incremental development.
 
@@ -24,4 +23,4 @@ The test-first practice, enabled by Test-Editor-Web on the user acceptance level
 
 ## Try it for Yourself
 
-* Write your first test specification in 5 minutes.
+* Do you want to write your first test specification in 5 minute? [read more](/te_markdown/heroes-create-spec){:class="web-button-grey reduced-padding"}

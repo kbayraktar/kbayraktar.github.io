@@ -25,7 +25,7 @@ This area is the place to write different test artifacts. The editor supports yo
 The Test Step Selector provides you with an overview of the test steps available for defining test cases.
 
 ### 4. Test Execution Navigator
-Here you can excute the chosen test case by clicking the start button on the top left corner of this area. After test execution, the results of the individual test steps are indicated by either green (success) or red (failure) icons. In the latter case, details regarding the cause of the failure can be inspected in the _Test Execution Details_.
+Here you can execute the chosen test case by clicking the start button on the top left corner of this area. After test execution, the results of the individual test steps are indicated by either green (success) or red (failure) icons. In the latter case, details regarding the cause of the failure can be inspected in the _Test Execution Details_.
 
 ### 5. Test Execution Details
 In this area, details about the test step selected in the _Test Execution Navigator_ are shown. In case of failures during execution, this area offers hints about what went wrong. The general sequence of events during test execution can be traced by accessing _logs_ and inspecting _screenshots_.
