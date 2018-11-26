@@ -13,7 +13,7 @@ First you have to choose a test case in the [Test Navigator](/te_markdown/termin
 ![screencast: choose test case](/images/choose_testcase.gif "screencast: choose test case")
 
 When the test case is started, you can see the execution of the single test steps.  
-After test execution you can browse the logs, and screenshots in the [Test Execution Details](/te_markdown/terminology#test-execution-details) menu.
+After test execution you can browse the logs, and screenshots in the [Test Execution Details](/te_markdown/terminology#test-execution-details).
 
 ![screencast: execute test case](/images/tutorial/tutorial.heroes.create.testrun.gif "screencast: execute test case")
 
