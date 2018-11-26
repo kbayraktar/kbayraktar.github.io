@@ -8,7 +8,7 @@ Estimated reading time: 5 minutes
 
 
 ## How do I execute a test case?
-First you have to choose a test case in the [Test Navigator](/te_markdown/terminology#test-navigator). E.g. you want to start the testcase named `CreateHero.tcl`, select the test case with your mouse and click the button in the left upper corner of the [Test Execution Navigator](/te_markdown/terminology#test-execution-navigator). 
+First you have to choose a test case in the [Test Navigator](/te_markdown/terminology#test-navigator). E.g. you want to start the testcase named `CreateHero.tcl`, select the test case with your mouse and click the *play* button in the left upper corner of the [Test Execution Navigator](/te_markdown/terminology#test-execution-navigator). 
 
 ![screencast: choose test case](/images/choose_testcase.gif "screencast: choose test case")
 
