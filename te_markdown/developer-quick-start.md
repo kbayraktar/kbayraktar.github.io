@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Developer quick start
+title: Developer Quick Start
 permalink: /te_markdown/developer-quick-start/
 ---
 
