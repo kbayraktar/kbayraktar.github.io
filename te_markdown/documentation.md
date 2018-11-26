@@ -15,4 +15,12 @@ You can find the source code for Test-Editor Web at GitHub:
 [test-editor-organization]: https://github.com/test-editor
 
 # Overview and Terminology
-[Overview and Terminology](/te_markdown/terminology/) 
+* [Overview and Terminology](/te_markdown/terminology/) 
+
+# Project infrastucture and approach
+* [Test-Editor infrastructure](https://testeditor.atlassian.net/wiki/x/hYAH)
+
+# Technical Details 
+* [AML-Description](https://testeditor.atlassian.net/wiki/x/BQA0AQ)
+* [AML Locator Strategy](https://testeditor.atlassian.net/wiki/x/AgB_AQ)
+* [Test-First with a Test Specification](https://testeditor.atlassian.net/wiki/x/BAD2)
