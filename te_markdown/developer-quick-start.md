@@ -7,9 +7,9 @@ permalink: /te_markdown/developer-quick-start/
 Estimated reading time: 5 minutes
 
 The **Test-Editor-Web** is basically composed of three projects (all open source, all hosted on github.com)
-1. [test-editor-web](https://github.com/test-editor/test-editor-web), the UI project
-2. [test-editor-backend](https://github.com/test-editor/test-editor-backend), the dropwizard java backends providing `REST` services for the UI
-3. [test-editor-xtext-gradle](https://github.com/test-editor/test-editor-xtext-gradle), the xtext language running under the hood
+1. [Test-Editor-Web](https://github.com/test-editor/test-editor-web), the UI project
+2. [Test-Editor-Backend](https://github.com/test-editor/test-editor-backend), the dropwizard java backends providing `REST` services for the UI
+3. [Test-Editor-Xtext-Gradle](https://github.com/test-editor/test-editor-xtext-gradle), the xtext language running under the hood
 
 The development environment for each of the projects can be installed with just a couple of shell commands.
 E.g. (for test-editor-xtext-gradle):
@@ -27,7 +27,7 @@ To locally setup the development environment, follow the setup section within th
 Don't worry, it is setup in no time with just a couple of shell commands.
 Prerequisite is an installation of linux with curl and git, all other dependencies are pulled by the respective shell.nix (using the nix package manager).
 
-You can edit the project files (mostly typescript) with an editor of your choice (e.g. VisualCode, Emacs).
+You can edit the project files (mostly typescript) with an editor of your choice (e.g. Visual Studio Code, gedit, Emacs).
 
 It is an angular 5 project using yarn. It is composed of several angular UI-Components that are pulled in via dependencies in the `packages.json` and are colocated to this project.
 
