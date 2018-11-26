@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Developer quick start
+title: Developer Quick Start
 permalink: /te_markdown/developer-quick-start/
 ---
 
@@ -27,7 +27,7 @@ To locally setup the development environment, follow the setup section within th
 Don't worry, it is setup in no time with just a couple of shell commands.
 Prerequisite is an installation of linux with curl and git, all other dependencies are pulled by the respective shell.nix (using the nix package manager).
 
-You can edit the project files (mostly typescript) with an editor of your choice (e.g. VisualCode, Emacs).
+You can edit the project files (mostly typescript) with an editor of your choice (e.g. Visual Studio Code, Emacs).
 
 It is an angular 5 project using yarn. It is composed of several angular UI-Components that are pulled in via dependencies in the `packages.json` and are colocated to this project.
 
