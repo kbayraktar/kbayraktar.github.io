@@ -42,60 +42,60 @@ In this area, details about the test step selected in the _Test Execution Naviga
 
 <a name="application-mapping"></a> 
 #### Application Mapping
-: A set of platform- or application-specific [test steps](#test-step), mapped to concrete actions to be performed for testing, that are implemented in [test fixtures](#test-fixture).
+A set of platform- or application-specific [test steps](#test-step), mapped to concrete actions to be performed for testing, that are implemented in [test fixtures](#test-fixture).
 
 <a name="application-mapping-language"></a> 
 #### Application Mapping Language (AML)
-: A language used by [testers](#tester) to define the platform- or application-specific vocabulary for the [test steps](#test-step), and by [developers](#developers) to map these steps to the concrete actions to be performed for testing, implemented in [test fixtures](#test-fixture).
+A language used by [testers](#tester) to define the platform- or application-specific vocabulary for the [test steps](#test-step), and by [developers](#developers) to map these steps to the concrete actions to be performed for testing, implemented in [test fixtures](#test-fixture).
 
 <a name="domain-expert"></a> 
 #### Domain Expert
-: A user of the [software under test](#software-under-test), or other stakeholder, who has a deep understanding of the problem domain. Domain experts specify what they expect the system to do and how it should behave, using the [test specification language (TSL)](#test-specification-language).
+A user of the [software under test](#software-under-test), or other stakeholder, who has a deep understanding of the problem domain. Domain experts specify what they expect the system to do and how it should behave, using the [test specification language (TSL)](#test-specification-language).
 
 <a name="developer"></a> 
 #### Developer
-: A person who is involved in the development of the [software under test](#software-under-test). User acceptance tests described with the [test case language (TCL)](#test-case-language) are continuously executed during the development process to check the progress with each development increment, and to validate the implementation.
+A person who is involved in the development of the [software under test](#software-under-test). User acceptance tests described with the [test case language (TCL)](#test-case-language) are continuously executed during the development process to check the progress with each development increment, and to validate the implementation.
 
 <a name="software-Under-Test"></a> 
 #### Software Under Test (SUT)
-: The software system for which user acceptance tests are created by [testers](#tester). It is (going to be) used by [domain experts](#domain-expert), and implemented and maintained by [developers](#developer).
+The software system for which user acceptance tests are created by [testers](#tester). It is (going to be) used by [domain experts](#domain-expert), and implemented and maintained by [developers](#developer).
 
 <a name="specification-step"></a> 
 #### Specification Step
-: A single step taken as part of a task to be performed with the [software under test](#software-under-test). Sequences of specification steps can form [test specifications](#test-specification).
+A single step taken as part of a task to be performed with the [software under test](#software-under-test). Sequences of specification steps can form [test specifications](#test-specification).
 
 <a name="test-artifact"></a> 
 #### Test Artifact
-: A file used by and / or created with the [Test-Editor-Web](#test-editor-web) for the overall purpose of user acceptance testing. In particular, these include files containing [test specifications](#test-specification), [test cases](#test-case), and [application mappings](#application-mapping) [test case language (TCL)](#test-case-language).
+A file used by and / or created with the [Test-Editor-Web](#test-editor-web) for the overall purpose of user acceptance testing. In particular, these include files containing [test specifications](#test-specification), [test cases](#test-case), and [application mappings](#application-mapping) [test case language (TCL)](#test-case-language).
 
 <a name="test-case"></a> 
 #### Test Case
-: A user acceptance test defined in terms of a sequence of [test steps](#test-step) to be executed, and expressed using the [test case language (TCL)](#test-case-language).
+A user acceptance test defined in terms of a sequence of [test steps](#test-step) to be executed, and expressed using the [test case language (TCL)](#test-case-language).
 
 <a name="test-case-language"></a> 
 #### Test Case Language (TCL)
-: A language used by [testers](#tester) to implement [test cases](#test-case) conforming to [test specifications](#test-specification), by defining the necessary, concrete [test steps](#test-step) for automatic execution.
+A language used by [testers](#tester) to implement [test cases](#test-case) conforming to [test specifications](#test-specification), by defining the necessary, concrete [test steps](#test-step) for automatic execution.
 
 <a name="test-editor-web"></a> 
 #### Test-Editor-Web
-: An application dedicated to automate the tip of the testing pyramid—acceptance testing—to enable automated product releases and provide confidence in reliable product operation. Designed to bridge the gap between [domain experts](#domain-expert), [testers](#tester), and [developers](#developer), Test-Editor-Web is a modern application that integrates well with container technologies. See (Overview)[#overview] for a description of its user interface components and functions.
+An application dedicated to automate the tip of the testing pyramid—acceptance testing—to enable automated product releases and provide confidence in reliable product operation. Designed to bridge the gap between [domain experts](#domain-expert), [testers](#tester), and [developers](#developer), Test-Editor-Web is a modern application that integrates well with container technologies. See (Overview)[#overview] for a description of its user interface components and functions.
 
 <a name="test-fixture"></a> 
 #### Test Fixture
-: A software library that implements concrete actions, specific to the platform and technology stack of a given [software under test](#software-under-test), to be performed during test execution. [Developers](#developer) use [application mappings](#application-mapping) to bind [test-steps](#test-step) to fixture logic. Out of the box, [Test-Editor-Web](#test-editor-web) comes with fixtures that enable the testing of _web_ applications, in particular _Angular_ applications, _REST_ services, _Java Swing_ applications, and mainframe applications through _3270 terminal emulation_.
+A software library that implements concrete actions, specific to the platform and technology stack of a given [software under test](#software-under-test), to be performed during test execution. [Developers](#developer) use [application mappings](#application-mapping) to bind [test-steps](#test-step) to fixture logic. Out of the box, [Test-Editor-Web](#test-editor-web) comes with fixtures that enable the testing of _web_ applications, in particular _Angular_ applications, _REST_ services, _Java Swing_ applications, and mainframe applications through _3270 terminal emulation_.
 
 <a name="test-specification"></a> 
 #### Test Specification
-: A usage scenario describing an interaction with the [software under test](#software-under-test), written by [domain experts](#domain-expert) to express desired system behaviors in a testable manner.
+A usage scenario describing an interaction with the [software under test](#software-under-test), written by [domain experts](#domain-expert) to express desired system behaviors in a testable manner.
 
 <a name="test-specification-language"></a> 
 #### Test Specification Language (TSL)
-: A language used by [domain experts](#domain-expert) to write [test specifications](#test-specification) of desired system behaviors. [Testers](#tester) refer to TSL [artifacts](test-artifact) when implementing them as [test cases](#test-case), using the [test case language](#test-case-language).
+A language used by [domain experts](#domain-expert) to write [test specifications](#test-specification) of desired system behaviors. [Testers](#tester) refer to TSL [artifacts](test-artifact) when implementing them as [test cases](#test-case), using the [test case language](#test-case-language).
 
 <a name="test-step"></a> 
 #### Test Step
-: A single, automatable step taken as part of a test executed against the [software under test](#software-under-test). In [test cases](#test-case) conforming to [test specifications](#test-specification), each [specification step](#specification-step) may be implemented by arbitrarily many test steps.
+A single, automatable step taken as part of a test executed against the [software under test](#software-under-test). In [test cases](#test-case) conforming to [test specifications](#test-specification), each [specification step](#specification-step) may be implemented by arbitrarily many test steps.
 
 <a name="tester"></a> 
 #### Tester
-: A person responsible for user acceptance testing against the [software under test](#software-under-test). Testers write executable [test cases](#test-case) using the [test case language](#test-case-language) to implement [test specifications](#test-specification).
+A person responsible for user acceptance testing against the [software under test](#software-under-test). Testers write executable [test cases](#test-case) using the [test case language](#test-case-language) to implement [test specifications](#test-specification).
