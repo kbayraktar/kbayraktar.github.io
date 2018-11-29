@@ -442,11 +442,15 @@ a.web-button {
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.25);
   text-decoration: none;
 }
+
+/* 
+These buttons were formerly grey. ;O) 
+*/
 a.web-button-grey {
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #9fa19f;
-  background-image: linear-gradient(to bottom, #bdbebd, #7e807e);
+  background-color: #008000;
+  background-image: linear-gradient(to bottom, #62c462,#008000);
   background-repeat: repeat-x;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   padding: 10px 12px;
