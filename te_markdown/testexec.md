@@ -6,6 +6,8 @@ permalink: /te_markdown/testexec/
 
 Estimated reading time: 2 minutes
 
+ ![Test containerized](/images/containerized.png "Test containerized"){: style="    display: block; margin-left: auto; margin-right: auto; width: 60%;" }
+
 User acceptance tests, like any automated tests, should be repeatable, with reproducible test results. For that, it is important that tests run in a controlled environment that shields them from unwanted influences of the surrounding execution platform, and from interference with other tests.
 
 **Test-Editor-Web** encapsulates test runs in a Docker container, which provides a high degree of both isolation from outside influences, as well as great control over the test environment inside. The containerization further imparts a high degree of flexibility in terms of deployment, allowing tests to be run virtually anywhere, and at scale. The same container is used locally as it is used in the cloud.

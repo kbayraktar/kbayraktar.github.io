@@ -171,11 +171,30 @@
   }
   
   /**
-   * Logon on landing page
+   * Logo on landing page
    */
    .logo {
     float: left;
     margin-right: 25px;
+
+   }
+
+     /**
+   * News Feed Logo on home.html
+   */
+   .icon_newsfeed {
+    float: left;
+    margin-right: 5px;
+    margin-top: 10px;
+   }
+
+        /**
+   * New mail icon on home.html
+   */
+   .icon_mail {
+    float: left;
+    margin-right: 5px;
+    margin-top: 2px;
    }
   
   /**
