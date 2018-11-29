@@ -35,7 +35,7 @@ Given you have a running instance of the test-editor-web, the following (trivial
 
 That's it. The first specification is in place.
 
-[How do I get a running test-editor-instance?](local-setup)
+[How do I get a running test-editor-instance?](/te_markdown/local-setup)
 
 If you want to know how to implement and execute a test case covering this implementation, [read more](/te_markdown/heroes-create-testcase){:class="web-button-grey reduced-padding"}
 
