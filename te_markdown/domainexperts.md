@@ -6,7 +6,7 @@ permalink: /te_markdown/domainexperts/
 
 Estimated reading time: 3 minutes
 
- ![Test your domain](/images/testcase_typing.png "Test your domain"){: style="    display: block; margin-left: auto; margin-right: auto; width: 60%;" }
+ ![Test your domain](/images/testcase_typing.gif "Test your domain"){: style="    display: block; margin-left: auto; margin-right: auto; width: 60%;" }
 
 User acceptance testing is a collaborative activity involving domain experts, testers, and developers. Therefore, effective and efficient tools have to address the different needs of each of these roles. In particular, they must not expose technical aspects that would shut out less tech-savvy users that nevertheless need to participate in the process. 
 For example, tools embedded into heavy-weight integrated development environments expose far too many unneeded features and capabilities that distract from the task at hand, and unnecessarily steepen the learning curve. The same is true for using existing general-purpose programming languages to express test specifications and test cases, that were not build with these use cases in mind.
