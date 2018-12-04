@@ -6,7 +6,9 @@ categories: te update
 ---
 
 # A new star is born! 
-We proudly present: The new Test-Editor-Web V. 1.1.6 is available now. 
+We proudly present: 
+
+<img src="/images/logo.svg?sanitize=true"> The new Test-Editor-Web V. 1.1.6 is available now. 
 
 Check out the [Test-Editor-Web docs][te-docs] for more info on how to install and get the most out of Test-Editor-Web. File all bugs/feature requests at [Test-Editor-Web’s GitHub repo][te-gh]. 
 
