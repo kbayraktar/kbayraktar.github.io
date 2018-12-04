@@ -6,7 +6,7 @@ permalink: /te_markdown/testexec/
 
 Estimated reading time: 2 minutes
 
- ![Test containerized](/images/containerized.png "Test containerized"){: style="    display: block; margin-left: auto; margin-right: auto; width: 60%;" }
+ ![Test containerized](/images/containerized.gif "Test containerized"){: style="    display: block; margin-left: auto; margin-right: auto; width: 60%;" }
 
 User acceptance tests, like any automated tests, should be repeatable, with reproducible test results. For that, it is important that tests run in a controlled environment that shields them from unwanted influences of the surrounding execution platform, and from interference with other tests.
 

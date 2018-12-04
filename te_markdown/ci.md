@@ -6,7 +6,7 @@ permalink: /te_markdown/ci/
 
 Estimated reading time: 2 minutes
 
- ![Test continuously](/images/04-en_cut.png "Test continuously"){: style="    display: block; margin-left: auto; margin-right: auto; width: 100%;" }
+ ![Test continuously](/images/ci.gif "Test continuously"){: style="    display: block; margin-left: auto; margin-right: auto; width: 100%;" }
 
 Modern, agile development practices encompass continuous integration, delivery, and deployment. User acceptance testing should be a part of these processes, to monitor progress while developing with each increment and complement existing quality assurance measures. Therefore, the tests have to be integrable into the corresponding build pipelines.
 
