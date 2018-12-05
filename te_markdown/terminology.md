@@ -46,11 +46,17 @@ In this area, details about the test step selected in the _Test Execution Naviga
 <a name="application-mapping-language"></a>Application Mapping Language (AML)
 : A language used by [testers](#tester) to define the platform- or application-specific vocabulary for the [test steps](#test-step), and by [developers](#developers) to map these steps to the concrete actions to be performed for testing, implemented in [test fixtures](#test-fixture).
 
+<a name="component"></a>Component
+: A component is a headline for all web elements on a single web page.
+
 <a name="developer"></a>Developer
 : A person who is involved in the development of the [software under test](#software-under-test). User acceptance tests described with the [test case language (TCL)](#test-case-language) are continuously executed during the development process to check the progress with each development increment, and to validate the implementation.
 
 <a name="domain-expert"></a>Domain Expert
 : A user of the [software under test](#software-under-test), or other stakeholder, who has a deep understanding of the problem domain. Domain experts specify what they expect the system to do and how it should behave, using the [test specification language (TSL)](#test-specification-language).
+
+<a name="locator-strategy"></a>Locator Strategy
+: Locating web elements are realized through locator types (for further information see [Selenium documentation for locating elements](https://www.seleniumhq.org/docs/02_selenium_ide.jsp#locating-elements)). For these locator types the [web-fixture](https://github.com/test-editor/web-fixture) offers the possibility to choose one of these locator  types through the locator strategy which assist to search for web-elements by name, identifier, link text, CSS ([for further information see W3Schools CSS Tutorial](https://www.w3schools.com/css/default.asp)) or XPath ([for further information see W3Schools XPath Tutorial](http://www.w3schools.com/xml/xpath_intro.asp)).
 
 <a name="software-under-test"></a>Software Under Test (SUT)
 : The software system for which user acceptance tests are created by [testers](#tester). It is (going to be) used by [domain experts](#domain-expert), and implemented and maintained by [developers](#developer).
