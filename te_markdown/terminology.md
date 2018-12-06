@@ -47,7 +47,7 @@ In this area, details about the test step selected in the _Test Execution Naviga
 : A language used by [testers](#tester) to define the platform- or application-specific vocabulary for the [test steps](#test-step), and by [developers](#developers) to map these steps to the concrete actions to be performed for testing, implemented in [test fixtures](#test-fixture).
 
 <a name="component"></a>Component
-: A component is a headline for all web elements on a single web page.
+: A component is a container for UI elements and interactions. In case of a web application it could be used to describe a  single web page.
 
 <a name="developer"></a>Developer
 : A person who is involved in the development of the [software under test](#software-under-test). User acceptance tests described with the [test case language (TCL)](#test-case-language) are continuously executed during the development process to check the progress with each development increment, and to validate the implementation.
