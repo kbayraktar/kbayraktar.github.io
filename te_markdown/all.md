@@ -5,7 +5,8 @@ permalink: /te_markdown/all/
 ---
 
 <a name="test-first"></a>
-## Test First
+
+##  ![GitHub](/images/test_first_icon.svg?sanitize=true){: style="width: 40px; height: 40px"} Test First
 Estimated reading time: 3 minutes
 
  ![Writing a Test Specification](/images/testfirst.gif "Writing a Test Specification"){: style="    display: block; margin-left: auto; margin-right: auto; width: 60%;" }
@@ -29,12 +30,16 @@ The test-first practice, enabled by Test-Editor-Web on the user acceptance level
 
 * Do you want to write your first test specification in 5 minutes? [read more](/te_markdown/heroes-create-spec){:class="web-button-grey reduced-padding"}
 
-<br>
-<br>
+
 <br>
 
-<a name="test-domain"></a>
-## Test Your Domain
+___
+
+
+<br>
+
+<a name="test-your-domain"></a>
+## ![GitHub](/images/your_domain_icon.svg?sanitize=true){: style="width: 40px; height: 40px"} Test Your Domain
  
 
 Estimated reading time: 3 minutes
@@ -69,12 +74,16 @@ Furthermore, the user interface has been kept clear and reduced to the essential
 * Do you want to write your first test specification in 5 minutes? [read more](/te_markdown/heroes-create-spec){:class="web-button-grey reduced-padding"}
 * Do you want to Write your first test case in 8 minutes? [read more](/te_markdown/heroes-create-testcase){:class="web-button-grey reduced-padding"}
 
+
 <br>
-<br>
+
+___
+
+
 <br>
 
 <a name="test-application"></a>
-## Test Your Application
+## ![GitHub](/images/your_application_icon.svg?sanitize=true){: style="width: 40px; height: 40px"} Test Your Application
 
 Estimated reading time: 3 minutes
 
@@ -101,12 +110,16 @@ Test-Editor-Web is extensible in this respect, and additional test fixtures can 
 * Do you want to write your first test specification in 5 minutes? [read more](/te_markdown/heroes-create-spec){:class="web-button-grey reduced-padding"}
 * Do you want to Write your first test case in 8 minutes? [read more](/te_markdown/heroes-create-testcase){:class="web-button-grey reduced-padding"}
 
+
 <br>
-<br>
+
+___
+
+
 <br>
 
 <a name="test-containerized"></a>
-## Test Containerized
+## ![GitHub](/images/containerized_icon.svg?sanitize=true){: style="width: 40px; height: 40px"} Test Containerized
 
 Estimated reading time: 2 minutes
 
@@ -128,12 +141,17 @@ User acceptance tests, like any automated tests, should be repeatable, with repr
 
 * Do you want to write your first test specification in 5 minutes? [read more](/te_markdown/heroes-create-spec){:class="web-button-grey reduced-padding"}
 * Do you want to Write your first test case in 8 minutes? [read more](/te_markdown/heroes-create-testcase){:class="web-button-grey reduced-padding"}
+
+
 <br>
-<br>
+
+___
+
+
 <br>
 
 <a name="test-browser"></a>
-## Test in Your Browser
+## ![GitHub](/images/your_browser_icon.svg?sanitize=true){: style="width: 40px; height: 40px"} Test in Your Browser
 
 Estimated reading time: 2 minutes
 
@@ -151,12 +169,16 @@ Testing, on any level, is an indispensible quality assurance measure, yet is oft
 
 * Do you want to write your first test specification in 5 minutes? [read more](/te_markdown/heroes-create-spec){:class="web-button-grey reduced-padding"}
 * Do you want to Write your first test case in 8 minutes? [read more](/te_markdown/heroes-create-testcase){:class="web-button-grey reduced-padding"}
+
 <br>
-<br>
+
+___
+
+
 <br>
 
 <a name="test-continuously"></a>
-## Test Continuously
+## ![GitHub](/images/continuously_icon.svg?sanitize=true){: style="width: 40px; height: 40px"} Test Continuously
 
 Estimated reading time: 2 minutes
 
