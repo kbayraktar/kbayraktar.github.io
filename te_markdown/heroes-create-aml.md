@@ -51,6 +51,8 @@ The path for the add button which is shown in the screencast is:
 
 `home > body > my-root > my-heroes > button`
 
+:warning:
+
 To get a better overview of all web-elements on one page you can summarize them in a [component](/te_markdown/terminology#component). In our example we name our page 'Heroes'   
 
 ```
