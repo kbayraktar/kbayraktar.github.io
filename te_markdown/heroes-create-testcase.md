@@ -19,16 +19,17 @@ The test specification that is implemented in this example is described in detai
 
 Given you have a running instance of the test-editor-web (see [here](/te_markdown/local-setup)), the following steps are necessary to implement the test specification.
 - navigate to (or create) the folder to hold the test case
-- create a new file with the extension '.tcl' (e.g. CreateHero.tcl) and type ```STRG + S``` to save the file.
+- create a new file with the extension '.tcl' (e.g. CreateHero.tcl) by clicking the new file button on the left corner of the [Test-Navigator](/te_markdown/terminology#test-navigator). Click the  ```RETURN``` key on your keyboard to create the file.
 
 ![screencase: create test case file](/images/tutorial/tutorial.heroes.create.testcase.1.create-file.gif "screencast: create test case file")
 
 - Write the test case name into the opened editor, prefixing it with '#' (e.g. '# CreateHero')
-- State that this test case implements the `CreateHero` specification ('implements CreateHero')
+- State that this test case implements the `CreateHero` specification ('implements CreateHero' in the same line)
+- Notice the yellow warning icon on the left of the editor in the first line, it indicates that your mentioned specification is not implemented yet.
 
 ![screencase: name test case](/images/tutorial/tutorial.heroes.create.testcase.2.enter-name.gif "screencast: name test case")
 
-- Copy the specification steps of the test specification (all three lines starting with '*')
+- Copy the specification steps of the test specification (all three lines starting with '*') and the warning will dissapear.
 
 ![screencase: copy specification](/images/tutorial/tutorial.heroes.create.testcase.3.copy-tsl.gif "screencast: copy specification")
 

@@ -55,3 +55,18 @@ The images and containers constructed will be kept, so that the next time the te
 `bash run-hero-create-specification` will be much faster, using the already downloaded images and constructed containers.
 Keep in mind that all files you create within the test-editor-web will live within the respective docker container. Removing the containers will remove your files, too.
 If you want to keep the files you write within this locally installed test-editor-web please run `bash save-repo` which will create an archive with your changes.
+
+## Stopping / Starting tutorials
+If you have started the first tutorial with the command `bash run-hero-create-specification`, you should stop the tutorial before starting the next one. 
+Therefore you should first execute `bash stop-tutorial` on the terminal in the respective heroes folder mentioned above.
+
+```
+cd heroes          # switch to the heroes tutorial
+bash stop-tutorial # stop the first brought up tutorial
+```
+
+After this step you can start a fresh, clean version of the next tutorial (e.g. creating a testcase) by typing following on your terminal
+
+` bash run-hero-create-testcase `
+
+You can find all tutorials and a brief desription [here](https://github.com/test-editor/tutorials )

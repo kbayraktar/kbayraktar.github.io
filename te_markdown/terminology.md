@@ -21,7 +21,7 @@ In addition you can filter the different test-artifacts, so that just the specif
 
 <a name="editor-area">
 ### 2. Editor Area
-This area is the place to write different test artifacts. The editor supports you with a content completion of the different possibilities during typing and saving your test case, e.g. through the shortcut ```STRG + S```.
+This area is the place to write different test artifacts. The editor supports you with a content completion of the different possibilities during typing and saving your test case, e.g. through the shortcut ```CTRL + S```.
 
 <a name="test-step-selector">
 ### 3. Test Step Selector
