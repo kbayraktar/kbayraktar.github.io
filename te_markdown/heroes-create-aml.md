@@ -51,8 +51,9 @@ The path for the add button which is shown in the screencast is:
 
 `home > body > my-root > my-heroes > button`
 
-:warning:
-
+  :warning:  - Creating reproducable tests which can be executed periodically, it is advisable to use unique ids ([see IDs](https://www.w3schools.com/html/html_id.asp)) to locate a web-element, but therefore the application under test has to offer [IDs](https://www.w3schools.com/html/html_id.asp) on every web-element to be examined. Unfortunately our chosen angular application under test "Tour of Heroes" does not offer, recognizing a web-element through IDs. For this reason we can just use the given XPATH on the application. But keep in mind that using [IDs](https://www.w3schools.com/html/html_id.asp) for recognizing web-elements should be the preferred way to recognize all web-elements on a web site for [regression testing](https://en.wikipedia.org/wiki/Regression_testing) purposes. :warning: 
+ 
+  
 To get a better overview of all web-elements on one page you can summarize them in a [component](/te_markdown/terminology#component). In our example we name our page 'Heroes'   
 
 ```
@@ -151,9 +152,17 @@ Do you want to learn more about the editor and how the tests can be written, sav
 
 The AML is expected to be written by a developer when the application is in place. 
 
-The vocabulary used in test cases is largely defined through artifacts written in the application mapping language (AML). The tester/developer writes mappings of the test vocabulary onto the actual implementation using this AML.
+The vocabulary used in test cases is largely defined through artifacts written in the application mapping language (AML). The tester/developer writes mappings of the test vocabulary onto the actual implementation using this AML. Each test step can be defined in the own domain language of the user. This simplifies the creation and execution of automated and manual tests without needing vast technical skills. The simplicity of defining test steps  easily lies in our mighty powerful keyword-driven approach. You can add your own keywords to build up any testing library you want for any test scenario you want.
+
 For the given tutorial a minimal AML was provided (Heroes.aml), partially describing the software under test.
 
+Please keep in mind, that writing test cases that can be executed periodically and are robust against GUI element changes, is only achievable through unique IDs. This approach is essential to recognize GUI elements unambiguously. 
+ 
+Do you want to learn more about using unique IDs in web development ?
+[read more](https://www.w3schools.com/html/html_id.asp){:class="web-button-grey reduced-padding"}
+ 
+Do you want to learn more about using XPATH in web development ?
+[read more](https://www.w3schools.com/xml/xpath_intro.asp){:class="web-button-grey reduced-padding"}
 
 Do you want to learn more about how to write a test specification?
 [read more](/te_markdown/heroes-create-spec){:class="web-button-grey reduced-padding"}
