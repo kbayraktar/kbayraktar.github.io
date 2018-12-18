@@ -19,7 +19,7 @@ The test specification that is implemented in this example is described in detai
 
 Given you have a running instance of the test-editor-web (see [here](/te_markdown/local-setup)), the following steps are necessary to implement the test specification.
 - navigate to (or create) the folder to hold the test case
-- create a new file with the extension '.tcl' (e.g. CreateHero.tcl) by clicking the new file button on the left corner of the [Test-Navigator](/te_markdown/terminology#test-navigator). Click the  ```RETURN``` key on your keyboard to create the file.
+ - create a new file with the extension '.tcl' (e.g. CreateHero.tcl) by clicking the new file button on the left corner of the [Test-Navigator](/te_markdown/terminology#test-navigator). Hit the  ```RETURN``` key on your keyboard to create the file.
 
 ![screencase: create test case file](/images/tutorial/tutorial.heroes.create.testcase.1.create-file.gif "screencast: create test case file")
 
