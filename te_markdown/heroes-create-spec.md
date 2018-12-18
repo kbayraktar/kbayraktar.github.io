@@ -36,7 +36,7 @@ Given you have a running instance of the test-editor-web, the following (trivial
 
 ![screencast: create hero specification](/images/tutorial/tutorial.heroes.create.spec.gif "screencast: create hero specification")
 
-- To save all your new created files, type `CTRL + S`.
+ - To save all your newly created files, type `CTRL + S`.
 
 That's it. The first specification is in place.
 
