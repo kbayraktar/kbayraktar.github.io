@@ -18,11 +18,14 @@ The software under test that is used for this example is an implementation of th
 
 You want to know more about the software that is tested here? [read more](/te_markdown/sut-heroes){:class="web-button-grey reduced-padding"}
 
+You want to know more about how to install the Test-Editor-Web, getting started to write specifications? [read more](/te_markdown/local-setup){:class="web-button-grey reduced-padding"}
+
 Given you have a running instance of the test-editor-web, the following (trivial) steps suffice:
 
 - navigate to (or create) the folder to hold the specification
-- create a new file with the extension '.tsl' (e.g. CreateHero.tsl)
-- Write the specification name into the opened editor, prefixing it with '#' (e.g. '# CreateHero')
+- create a new file with the extension '.tsl' (e.g. CreateHero.tsl) in a directory (e.g. org/testeditor/heroes) by means of the create button in the upper left corner of the [Test-Navigator](/te_markdown/terminology#test-navigator)
+ - hit the `RETURN` button on your keyboard to create the file.
+- Write the specification name into the opened editor, prefixing it with '#' (e.g. '# CreateHero') 
 - Write each aspect of the specification (specification steps):
 
 ```
@@ -33,13 +36,15 @@ Given you have a running instance of the test-editor-web, the following (trivial
 
 ![screencast: create hero specification](/images/tutorial/tutorial.heroes.create.spec.gif "screencast: create hero specification")
 
+ - To save all your newly created files, type `CTRL + S`.
+
 That's it. The first specification is in place.
 
 [How do I get a running test-editor-instance?](/te_markdown/local-setup)
 
-If you want to know how to implement and execute a test case covering this implementation, [read more](/te_markdown/heroes-create-testcase){:class="web-button-grey reduced-padding"}
+If you want to know how to implement and execute a test case covering this implementation [read more](/te_markdown/heroes-create-testcase){:class="web-button-grey reduced-padding"}
 
-If you want to know more about how specifications can and should be written, [read more](/te_markdown/test-specifications){:class="web-button-grey reduced-padding"}
+If you want to know more about how specifications can and should be written [read more](/te_markdown/test-specifications){:class="web-button-grey reduced-padding"}
 
 ## Some reflections
 

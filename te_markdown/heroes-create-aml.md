@@ -21,11 +21,11 @@ The test case we want to use for our AML in this example is described in detail 
 ## How do I write an AML ?
 
 First we create an AML file through clicking on the 'create new' button on the left corner of the [Test Navigator](/te_markdown/terminology#test-navigator) 
-- create a new file with the extension '.aml' (e.g. [Heroes.aml](https://github.com/test-editor/language-examples/blob/tutorial/hero-create-testcase/src/test/java/org/testeditor/heroes/Heroes.aml)) and type ```STRG + S``` to save the file.
+- create a new file with the extension '.aml' (e.g. [Heroes.aml](https://github.com/test-editor/language-examples/blob/tutorial/hero-create-testcase/src/test/java/org/testeditor/heroes/Heroes.aml)) and type ```CTRL + S``` to save the file.
 
 ![screencase: create aml file](/images/tutorial/tutorial_create_aml_file.gif "screencast: create aml file")
 
-Every AML file need some preconfiguration, like which [fixture](/te_markdown/terminology#test-fixture) or which [locator strategy](/te_markdown/terminology#locator-strategy) to use. Please copy following lines into the new created AML file and save the file with the keyboard shortcut ```STRG + S```.
+Every AML file need some preconfiguration, like which [fixture](/te_markdown/terminology#test-fixture) or which [locator strategy](/te_markdown/terminology#locator-strategy) to use. Please copy following lines into the new created AML file and save the file with the keyboard shortcut ```CTRL + S```.
 
 ```
 package org.testeditor.heroes
