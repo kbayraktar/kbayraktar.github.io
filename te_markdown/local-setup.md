@@ -65,7 +65,7 @@ cd heroes          # switch to the heroes tutorial
 bash stop-tutorial # stop the first brought up tutorial
 ```
 
-After this step you can start a fresh, clean version of the next tutorial (e.g. creating a testcase) by typing following on your terminal
+After this step you can start a fresh, clean version of the next tutorial (e.g. creating a testcase) by typing the following on your terminal
 
 ` bash run-hero-create-testcase `
 
